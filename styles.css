@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table Styling */
+caption {
+    padding: 25px;
+    font-size: 2rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.tableData:hover {
+    background-color: rgb(212, 241, 250);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+/* User Info Styling */
+.userInfo--modal {
+    width: 75%;
+    padding: 15px;
+    margin: 25px;
+}
+
+.postContainer {
+    width: 75%;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+
+.postInfo {
+    padding: 5px;
+}
+
+.heading {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.closeBtn {
+    height: 20px;
+    margin-left: 90%;
+    font-weight: bold;
+    color: rgb(214, 77, 77);
+}
+.closeBtn:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: rgb(245, 158, 158);
+    transition: all 0.05s ease-in-out;
+}
+
+.inactive {
+    display: none;
+}
